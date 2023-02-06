@@ -18,5 +18,6 @@ async def calculate_forecast(forecast_body: ForecastBody) -> float:
     data = data.reshape(-1,1)
     model = LinearRegression().fit(data[:-1], data[1:])
     prediction = model.predict(data)
-    result = prediction[-1:][0][0]
+    print(prediction)
+    result = prediction[0][0]
     return result
