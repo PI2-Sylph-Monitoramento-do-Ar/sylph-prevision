@@ -1,0 +1,10 @@
+joblib==1.2.0
+LinearRegression==0.0.1
+numpy==1.24.2
+scikit-learn==1.2.1
+scipy==1.10.0
+sklearn==0.0.post1
+threadpoolctl==3.1.0
+fastapi>=0.68.0,<0.69.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
